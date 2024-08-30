@@ -10,32 +10,17 @@
     "build:ios": "cd ios && xcodebuild -workspace CxxTurbomoduleExample.xcworkspace -scheme CxxTurbomoduleExample -configuration Debug -sdk iphonesimulator CC=clang CPLUSPLUS=clang++ LD=clang LDPLUSPLUS=clang++ GCC_OPTIMIZATION_LEVEL=0 GCC_PRECOMPILE_PREFIX_HEADER=YES ASSETCATALOG_COMPILER_OPTIMIZATION=time DEBUG_INFORMATION_FORMAT=dwarf COMPILER_INDEX_STORE_ENABLE=NO"
   },
   "dependencies": {
-    "react": "18.2.0",
-    "react-native": "0.74.0",
-    "react-native-reanimated": "^3.11.0"
+    "react": "18.3.1",
+    "react-native": "0.75.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
-    "@react-native/babel-preset": "0.74.81",
-    "@react-native/metro-config": "0.74.81",
-    "@react-native/typescript-config": "0.74.81",
+    "@react-native/babel-preset": "0.75.2",
+    "@react-native/metro-config": "0.75.2",
+    "@react-native/typescript-config": "0.75.2",
     "babel-plugin-module-resolver": "^5.0.0"
-  },
-  "resolutions": {
-    "@react-native-community/cli": "portal:/Users/burakguner/kod/react-native-cli/packages/cli",
-    "@react-native-community/cli-clean": "portal:/Users/burakguner/kod/react-native-cli/packages/cli-clean",
-    "@react-native-community/cli-config": "portal:/Users/burakguner/kod/react-native-cli/packages/cli-config",
-    "@react-native-community/cli-debugger-ui": "portal:/Users/burakguner/kod/react-native-cli/packages/cli-debugger-ui",
-    "@react-native-community/cli-doctor": "portal:/Users/burakguner/kod/react-native-cli/packages/cli-doctor",
-    "@react-native-community/cli-hermes": "portal:/Users/burakguner/kod/react-native-cli/packages/cli-hermes",
-    "@react-native-community/cli-platform-android": "portal:/Users/burakguner/kod/react-native-cli/packages/cli-platform-android",
-    "@react-native-community/cli-platform-apple": "portal:/Users/burakguner/kod/react-native-cli/packages/cli-platform-apple",
-    "@react-native-community/cli-platform-ios": "portal:/Users/burakguner/kod/react-native-cli/packages/cli-platform-ios",
-    "@react-native-community/cli-server-api": "portal:/Users/burakguner/kod/react-native-cli/packages/cli-server-api",
-    "@react-native-community/cli-tools": "portal:/Users/burakguner/kod/react-native-cli/packages/cli-tools",
-    "@react-native-community/cli-types": "portal:/Users/burakguner/kod/react-native-cli/packages/cli-types"
   },
   "engines": {
     "node": ">=18"
